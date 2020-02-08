@@ -74,7 +74,7 @@ Node.js、Ruby、Pythonがインストールされている場合、Webサーバ
 
  - [http://localhost:8000/](http://localhost:8000/)
 
-![](images/003.png)
+![](images/001.png)
 
 ### Vivliostyle ViewerでHTML文書を表示する
 
@@ -149,7 +149,7 @@ Vivliostyleのサンプルのページを見て、ベースにしていきたい
 
 右上のVivliostyleのマークをクリックすると、ページ設定のメニューが開きます。「User Style Preferences」の「Page Size」のところで、「Preset」のプルダウンから好みの紙面サイズを選んだり、「Costom size」から具体的に指定してページサイズを指定します。そして、下の方にある「Apply」をクリックします。
 
-![](images/004.png)
+![](images/002.png)
 
 #### 3. 章の冒頭の大きくなっている文字を普通のサイズにする
 
@@ -167,7 +167,7 @@ p:first-of-type::first-letter {
 }
 ```
 
-![](images/005.png)
+![](images/003.png)
 
 #### 4. 著者プロフィールと奥付を入れる
 
@@ -260,7 +260,7 @@ section#colophon table.info td {
 
 このようにして、著者プロフィールと奥付を入れることができました。
 
-![](images/006.png)
+![](images/004.png)
 
 Vivliostyleを用いて、同人誌に最低限必要な仕様を満たす組版を行うことができました。ブラウザから印刷し「PDFに保存」することで、電子書籍やコピー本用のPDFデータを取得することができます。
 
