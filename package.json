@@ -19,7 +19,7 @@
     "build:clean": "rimraf ./dist",
     "build:copy-content": "cpx \"content/**/!(*.{md,pug})\" dist/",
     "build:css": "node-sass scss/app.scss dist/bundle.css -r --source-map true --output-style expanded",
-    "build:md": "ts-node build/index.ts -i / -o dist/",
+    "build:md": "ts-node build/index.ts -i content/ -o dist/",
     "build:pug": "pug -o dist/ content/",
     "build:pdf": "savepdf --book -s JIS-B5 dist",
     "build": "run-s build:clean build:copy-content build:css build:md build:pug build:pdf",
