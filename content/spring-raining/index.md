@@ -28,7 +28,7 @@ ViolaではGitHubとGoogleアカウントを認証基盤として使っていま
 
 一方で、現時点ではVivliostyle PubはGitHubを使ったことのない非技術者のユーザーにとって、敷居が高くなることが予想されます。長期的には、より幅広いユーザーへのサポートが必要になるでしょう。
 
-### Vivliostyle Flavored Markdown (VFM)
+### Vivliostyle Flavored Markdown（VFM）対応
 
 akabekoさんの記事にもある通り、現状問題となっているMarkdownの表現力の低さを補うべく、VFMという新しいMarkdown方言をVivliostyle Pubのエコシステムとして採用する予定です。「V」とはついているものの、Vivliostyle専用の文法が追加されるわけではなく、あくまで書籍制作のために必要な機能を強化するという位置づけで、HTMLへの互換を前提とした用途の広い言語となることを目標としています。もちろん、VFMの仕様や実装はオープンソースです。
 
