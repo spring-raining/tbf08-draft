@@ -6,6 +6,10 @@ author:
 
 # GitHub+Circle CIを用いたVivliostyle+Markdownによる組版をやってみた
 
+<div class="draft-author">
+MH35
+</div>
+
 ## Circle CIとは
 
 Circle CIとは、継続的インテグレーションサービスの1つであり、コミットからデプロイまでのパイプラインを作成して自動化するサービスである。このサービスは、初期費用が無料であり、簡単に試すことができるのが利点である。今回、私はそれを使うことにした。

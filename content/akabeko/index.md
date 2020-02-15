@@ -3,8 +3,11 @@ title: Vivliostyle Flavored Markdown について
 author:
   - akabeko
 ---
-
 # Vivliostyle Flavored Markdown について
+
+<div class="draft-author">
+akabeko
+</div>
 
 現在 Vivliostyle プロジェクトで策定中の VFM (Vivliostyle Flavored Markdown) について。
 

@@ -4,6 +4,12 @@ author:
   - spring-raining
 ---
 
+# ViolaのこれからとVivliostyle Pub
+
+<div class="draft-author">
+spring-raining
+</div>
+
 こんにちははじめまして、はるさめ（spring-raining）です。今回は、将来公開予定の **Vivliostyle Pub** （仮称）について紹介したいと思います。
 
 Vivliostyle Pubは、Vivliostyleを使ったWebアプリケーションです。Vivliostyle Pubを使うことで、ブラウザ上でHTMLとCSSによる原稿の執筆から組版、PDFの出力までを実現することができます。このアイディアは以前私が公開したWebアプリの [**Viola**](https://viola.pub/) を継承したもので、今後はVivliostyle Pubの開発に注力し将来的にViolaからの移行先とする予定です。

@@ -1,7 +1,14 @@
-﻿# “Vivliostyle”、未来へのステップ
-__小形克宏[^1]__
+﻿---
+title: “Vivliostyle”、未来へのステップ
+author:
+  - 小形克宏
+---
 
-[^1]: 一般社団法人ビブリオスタイル理事 https://vivliostyle.org/ja/
+# “Vivliostyle”、未来へのステップ
+
+<div class="draft-author">
+小形克宏<span class="footnote">一般社団法人ビブリオスタイル理事 <a href="https://vivliostyle.org/ja/">https://vivliostyle.org/ja/</a></span>
+</div>
 
 ## はじめに
 2020年でスタートから 6年になる “Vivliostyle”。その道のりは決して平坦なものではなかったが、幸いなことに新たな開発者達によって次なるステップへ飛躍しようとしている。本稿では、これまでの経緯を簡単に振り返りつつ、次世代の “Vivliostyle” が何を目指すかについて説明したい。
@@ -43,13 +50,13 @@ __小形克宏[^1]__
 
 図は “Vivliostyle” の “GitHub” における、プロジェクト開設以来の Commit (更新) 数の推移をグラフ化したものだ **（図1）** [^10]。株式会社ビブリオスタイルが開発していた時期に比べ、“VF”への移行後も頻度はそれほど下がっていないことが分かるだろう。引き続き開発は盛んに行われているのである。
 
-![図1 github.com/vivliostyle における開設以来の開発頻度の推移](fig_1.png)
+![github.com/vivliostyle における開設以来の開発頻度の推移](fig_1_rgb.png)
 
 [^10]: https://github.com/vivliostyle/vivliostyle/graphs/contributors
 
 なぜそれができたのか？　理由の一端が分かるのが、2019年8月に “VF” が開催したイベント、「Vivliostyle 開発者とユーザーの集い 2019 夏」でのアンケート集計結果だ **（図2）**  [^11]。
 
-![図2 Vivliostyle のこれからの開発課題 (複数回答)](fig_2.png)
+![Vivliostyle のこれからの開発課題 (複数回答)](fig_2_rgb.png)
 
 [^11]: https://vivliostyle.github.io/vivliostyle_doc/ja/vivliostyle-user-group-vol2/shinyu/index.html
 
@@ -111,7 +118,7 @@ Type3 フォントは印刷用データを生成する RIP (Raster Image Process
 
 それでも、せめてモックアップ画面を公表したいとお願いしたところ、uetchy 氏が作ってくれたのが以下のものだ **（図3）** 。原稿 (テキスト/マークダウン/HTML) を入力編集するエディター画面と、プレビュー画面の 2ペイン構成であり、右上の出力メニューから、印刷可能な PDF/X-1a を含む多様な出力フォーマットに対応していることが分かる。もちろんこのままリリースとはならないが (後述するが、初期バージョンとも異なる)、開発の意図は伝わるはずだ。
 
-![図3 開発中の “Vivliostyle Pub” の画面](fig_3.png)
+![開発中の “Vivliostyle Pub” の画面](fig_3_rgb.png)
 
 ## “Vivliostyle Pub” のビジネスモデル
 
