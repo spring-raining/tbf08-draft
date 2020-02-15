@@ -64,9 +64,7 @@ Vivliostyleのサンプルを改変して組版した本を印刷・PDF頒布す
 
 ### Vivliostyle Viewerを起動する
 
-まずは、Vivliostyle公式サイトの「ダウンロード」のページにある「最新安定版のダウンロード」より、Vivliostyleの最新安定版を、ローカルの好きな場所にダウンロードします。
-
- - [https://vivliostyle.org/ja/download/](https://vivliostyle.org/ja/download/)
+まずは、Vivliostyle公式サイトの「ダウンロード」のページ[^ https://vivliostyle.org/ja/download/]にある「最新安定版のダウンロード」より、Vivliostyleの最新安定版を、ローカルの好きな場所にダウンロードします。
 
 ダウンロードした``vivliostyle-latest.zip``を解凍します。そして、解凍して得られた``vivliostyle-js-[version]``フォルダに、ターミナルやコマンドプロンプトから入ります。
 
@@ -100,14 +98,9 @@ Node.js、Ruby、Pythonがインストールされている場合、Webサーバ
 
 ### サンプルを取得する
 
-Vivliostyleのサンプルのページを見て、ベースにしていきたいデザインを選びます。
+Vivliostyleのサンプルのページ[^ https://vivliostyle.org/ja/samples/]を見て、ベースにしていきたいデザインを選びます。
 
- - [https://vivliostyle.org/ja/samples/](https://vivliostyle.org/ja/samples/)
-
-今回は横書きの同人誌を作りたいので、「英語小説」のサンプルを利用します。サンプルの取得方法ですが、GitHubで、Vivliostyleのドキュメントのホスティングしているリポジトリにアクセスし、そこからZipで取ってくるのが分かりやすいかなと思います。
-
- - [https://github.com/vivliostyle/vivliostyle_doc](https://github.com/vivliostyle/vivliostyle_doc)
-
+今回は横書きの同人誌を作りたいので、「英語小説」のサンプルを利用します。サンプルの取得方法ですが、GitHubで、Vivliostyleのドキュメントのホスティングしているリポジトリ[^ https://github.com/vivliostyle/vivliostyle_doc]にアクセスし、そこからZipで取ってくるのが分かりやすいかなと思います。
 
 この中の、``vivliostyle_doc-gh-pages/samples``にある``gutenberg``フォルダを、Vivliostyle Viewerの中身である``vivliostyle-js-[version]/samples``の中身にコピーします。
 
@@ -274,10 +267,7 @@ section#colophon table.info td {
 
 Vivliostyleを用いて、同人誌に最低限必要な仕様を満たす組版を行うことができました。ブラウザから印刷し「PDFに保存」することで、電子書籍やコピー本用のPDFデータを取得することができます。
 
-サンプルはGitHubに公開しました。
-
- - [https://github.com/kondoyuko/vivliostyle-sample-for-tbf08](https://github.com/kondoyuko/vivliostyle-sample-for-tbf08)
-
+サンプルはGitHubに公開しました。[^ https://github.com/kondoyuko/vivliostyle-sample-for-tbf08]
 また、オンラインのViviostyle Viewerを使い、以下のURLより紙面を確認できます。
 
  - [https://vivliostyle.org/viewer/#b=https://kondoyuko.github.io/vivliostyle-sample-for-tbf08/index.html](https://vivliostyle.org/viewer/#b=https://kondoyuko.github.io/vivliostyle-sample-for-tbf08/index.html)
