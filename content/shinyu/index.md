@@ -6,6 +6,10 @@ author:
 
 # Web出版の未来とCSS組版
 
+<div class="draft-author">
+村上真雄
+</div>
+
 JAGAT（日本印刷技術協会）のPAGE2020のオープンイベント[「XMLパブリッシング交流会—ウェブ出版と日本語組版の未来](https://kokucheese.com/event/index/589362/)」(2020年2月7日)で、[『ウェブ出版と日本語組版の未来とCSS組版Vivliostyle』](http://bit.ly/page2020xpub)という話をしたのですが、そのテーマでもう少し書こうと思います。
 
 ## 〈Web出版〉とは何でしょう？
@@ -100,7 +104,7 @@ Web Publications のマニフェストを利用できるほか、マニフェス
 
 CSS組版で本が作れるようになったのはそんなに新しいことではありません。YesLogic社の [Prince](https://www.princexml.com/) というCSS組版ソフトウェアが最初にリリースされたのは2003年で、Håkon Wium Lie と Bert Bos によるCSSの入門書 [“Cascading Style Sheet – designing for the Web” (3rd edition)](https://www.amazon.com/dp/B003XNTT80/) が、それで組版されて出版されたのが2005年です。
 
-![Håkon Wium Lie & Bert Bos “Cascading Style Sheet – designing for the Web” (3rd edition) Addison-Wesley, 2005](https://www.w3.org/Style/LieBos3e/LieBos3e-small2.png)
+![Håkon Wium Lie & Bert Bos “Cascading Style Sheet – designing for the Web” (3rd edition) Addison-Wesley, 2005](images/LieBos3e-small2.png)
 
 Vivliostyle はWebブラウザベースのCSS組版エンジンですが、それより前にすでに、Webブラウザを使わない独自開発の組版エンジンでPDFを出力することができるCSS組版ソフトウェアが、Princeをはじめとして、いくつか存在していたのです。私が Vivliostyle の前に開発に携わっていたアンテナハウス社の [Antenna House Formatter](http://www.antenna.co.jp/AHF/) もそのひとつです。
 
