@@ -3,7 +3,7 @@
 @mixin page-top-style() {
   content: '';
   margin-bottom: 8mm;
-  background-color: $color_black;
+  background-color: #17173f;
 }
 
 @media screen {
@@ -161,7 +161,7 @@
 // Cover page
 @page :first {
   // margin: 0;
-  background-color: $color_gray;
+  background-color: #17173f;
 
   @top-left-corner {
     content: none;

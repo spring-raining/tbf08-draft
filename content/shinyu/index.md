@@ -10,7 +10,7 @@ author:
 村上真雄
 </div>
 
-JAGAT（日本印刷技術協会）の PAGE2020 のオープンイベント[「XML パブリッシング交流会—ウェブ出版と日本語組版の未来](https://kokucheese.com/event/index/589362/)」(2020 年 2 月 7 日)で、[『ウェブ出版と日本語組版の未来と CSS 組版 Vivliostyle』](http://bit.ly/page2020xpub)という話をしたのですが、そのテーマでもう少し書こうと思います。
+JAGAT（日本印刷技術協会）の PAGE2020 のオープンイベント「XML パブリッシング交流会—ウェブ出版と日本語組版の未来」[^ https://kokucheese.com/event/index/589362/](2020 年 2 月 7 日)で、『ウェブ出版と日本語組版の未来と CSS 組版 Vivliostyle』[^ http://bit.ly/page2020xpub]という話をしたのですが、そのテーマでもう少し書こうと思います。
 
 ## 〈Web 出版〉とは何でしょう？
 
@@ -26,7 +26,7 @@ Web の技術ですべての出版ができるようになったら、すべて�
 
 紙の本のニーズが簡単になくならない理由に、そのメディアの特性が Web とは違うということもあります。まとまった量のコンテンツを売買するのに都合がよくて、そのような長めのコンテンツをじっくり読ませやすいメディアの特性があります。
 
-[片手間で教える文章講座2　「ユニバーサル日本語」の構成（紙とWebの違い）｜安田峰俊｜note](https://note.com/meirojin/n/n5c422e085c3d) というネット記事で、「紙媒体と Web 媒体は『視認性』が違う」、「紙は Web よりも難解な内容を、より深く長く論じることに向いたメディア」と論じられています。紙媒体向けと Web 媒体向けで文章の書き方も変わり、Web 媒体では「段落あたりの文字数は、おおむね紙媒体の半分〜3 分の 2 以下」がよいことなど、いろいろ勉強になります。そしてその「紙と Web の違い」とされることに、組版スタイルの違いも関係があるようです。
+『片手間で教える文章講座2　「ユニバーサル日本語」の構成（紙とWebの違い）｜安田峰俊｜note』[^ https://note.com/meirojin/n/n5c422e085c3d]というネット記事で、「紙媒体と Web 媒体は『視認性』が違う」、「紙は Web よりも難解な内容を、より深く長く論じることに向いたメディア」と論じられています。紙媒体向けと Web 媒体向けで文章の書き方も変わり、Web 媒体では「段落あたりの文字数は、おおむね紙媒体の半分〜3 分の 2 以下」がよいことなど、いろいろ勉強になります。そしてその「紙と Web の違い」とされることに、組版スタイルの違いも関係があるようです。
 
 段落の区切りが紙媒体では行頭の 1 文字下げだけなのに対して、Web 媒体では、
 
@@ -86,13 +86,13 @@ Web 出版物の要件としては、ページネーションについても書�
 
 ### “WebBook” というよりシンプルな代替仕様案
 
-Web Publications 標準化については当初から、ブラウザへの実装が期待できない、仕様が複雑すぎ、せっかく普及した EPUB3 との互換性がなくなる、などの批判が W3C 内からもあり、それに代わるものとして [WebBook Level 1 (Unofficial Proposal Draft, 2 February 2018)](http://glazman.org/e0/webbook.html) という仕様案が提案されていました。これも Unofficial Proposal Draft の状態から進んでいないですが、現在のブラウザで実現できて、JSON のマニフェストも不要で HTML だけで記述できるシンプルな仕様、EPUB3 と互換性を持たせることも可能ということで、Web 出版物のようなものを実現するのに参考になります。
+Web Publications 標準化については当初から、ブラウザへの実装が期待できない、仕様が複雑すぎ、せっかく普及した EPUB3 との互換性がなくなる、などの批判が W3C 内からもあり、それに代わるものとして WebBook Level 1 (Unofficial Proposal Draft, 2 February 2018)[^ http://glazman.org/e0/webbook.html] という仕様案が提案されていました。これも Unofficial Proposal Draft の状態から進んでいないですが、現在のブラウザで実現できて、JSON のマニフェストも不要で HTML だけで記述できるシンプルな仕様、EPUB3 と互換性を持たせることも可能ということで、Web 出版物のようなものを実現するのに参考になります。
 
 ### Vivliostyle での Web 出版物のサポート
 
 Vivliostyle プロジェクトの目標のひとつに将来の Web 出版物の標準をサポートしたいということがありました。その標準化が今後どうなるかはさておき、これまで提案されている関連仕様ドラフトでも有用なものは取り入れていきたいです。
 
-約 1 年前の [Vivliostyle version 2019.1.101 リリース](https://vivliostyle.org/ja/blog/2019/02/27/vivliostyle-2019.1.101-released/) から、部分的に Web 出版物関連の機能を実装しています。このリリースノートにある次の項目です：
+約 1 年前の Vivliostyle version 2019.1.101 リリース[^ https://vivliostyle.org/ja/blog/2019/02/27/vivliostyle-2019.1.101-released/] から、部分的に Web 出版物関連の機能を実装しています。このリリースノートにある次の項目です：
 
 - 目次（Table of Contents, TOC）ナビゲーションが有効になりました
 - Web 出版物および同様の複数 HTML 文書をサポート
@@ -102,11 +102,11 @@ Web Publications のマニフェストを利用できるほか、マニフェス
 
 ## CSS 組版 (CSS Print) と Web のページネーションの標準化
 
-CSS 組版で本が作れるようになったのはそんなに新しいことではありません。YesLogic 社の [Prince](https://www.princexml.com/) という CSS 組版ソフトウェアが最初にリリースされたのは 2003 年で、Håkon Wium Lie と Bert Bos による CSS の入門書 [“Cascading Style Sheet – designing for the Web” (3rd edition)](https://www.amazon.com/dp/B003XNTT80/) が、それで組版されて出版されたのが 2005 年です。
+CSS 組版で本が作れるようになったのはそんなに新しいことではありません。YesLogic 社の Prince[^ https://www.princexml.com/] という CSS 組版ソフトウェアが最初にリリースされたのは 2003 年で、Håkon Wium Lie と Bert Bos による CSS の入門書 “Cascading Style Sheet – designing for the Web” (3rd edition)[^ https://www.amazon.com/dp/B003XNTT80/] が、それで組版されて出版されたのが 2005 年です。
 
 ![Håkon Wium Lie & Bert Bos “Cascading Style Sheet – designing for the Web” (3rd edition) Addison-Wesley, 2005](images/LieBos3e-small2.png)
 
-Vivliostyle は Web ブラウザベースの CSS 組版エンジンですが、それより前にすでに、Web ブラウザを使わない独自開発の組版エンジンで PDF を出力できる CSS 組版ソフトウェアが、Prince をはじめとして、いくつか存在していたのです。私が Vivliostyle の前に開発に携わっていたアンテナハウス社の [Antenna House Formatter](http://www.antenna.co.jp/AHF/) もそのひとつです。
+Vivliostyle は Web ブラウザベースの CSS 組版エンジンですが、それより前にすでに、Web ブラウザを使わない独自開発の組版エンジンで PDF を出力できる CSS 組版ソフトウェアが、Prince をはじめとして、いくつか存在していたのです。私が Vivliostyle の前に開発に携わっていたアンテナハウス社の Antenna House Formatter[^ http://www.antenna.co.jp/AHF/] もそのひとつです。
 
 ### CSS 組版の仕様
 
@@ -153,7 +153,7 @@ Vivliostyle はその実装をベースにして、Paged Media Level 3 と関連
 
 ### 最近の動き：W3C Workshop on CSS Print と CSS Print Community Group
 
-2020 年 2 月 13 日に、プラハにて [W3C Workshop on CSS Print](https://wiki.csswg.org/planning/print-workshop-2020) が開催されました。Vivliostyle からの参加は見送りましたが、世界の CSS Print（「CSS 組版」とほぼ同じ）の関係者たちが集まって盛況だったようです。参加者たちのポジションペーパーや発表資料が公開されています。たいへん参考になります：
+2020 年 2 月 13 日に、プラハにて W3C Workshop on CSS Print[^ https://wiki.csswg.org/planning/print-workshop-2020] が開催されました。Vivliostyle からの参加は見送りましたが、世界の CSS Print（「CSS 組版」とほぼ同じ）の関係者たちが集まって盛況だったようです。参加者たちのポジションペーパーや発表資料が公開されています。たいへん参考になります：
 
 - <https://wiki.csswg.org/planning/print-workshop-2020>
 

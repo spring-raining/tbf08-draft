@@ -43,3 +43,8 @@
   font-weight: 900;
   src: local('TazuganeGothicStdN-XBlack');
 }
+
+@font-face {
+  font-family: 'Yakumono';
+  src: url('assets/YakuCaltGothic/YakuCaltGothic-R.woff') format('woff'), url('assets/YakuCaltGothic/YakuCaltGothic-R.otf') format('opentype');
+}

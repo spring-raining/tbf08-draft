@@ -1,10 +1,10 @@
 ---
-title: GitHub+Circle CIを用いたVivliostyle+Markdownによる組版をやってみた
+title: GitHub+Circle CI を用いた Vivliostyle+Markdown による組版をやってみた
 author:
   - MH35
 ---
 
-# GitHub+Circle CIを用いたVivliostyle+Markdownによる組版をやってみた
+# GitHub+Circle CI を用いた Vivliostyle+Markdown による組版をやってみた
 
 <div class="draft-author">
 MH35

@@ -9,7 +9,7 @@
 h1,
 h2,
 h3 {
-  font-feature-settings: 'palt';
+  font-feature-settings: 'palt', 'calt';
 }
 
 h1 {
@@ -42,7 +42,7 @@ a:hover {
 }
 
 p {
-  // font-feature-settings: 'palt';
+  font-feature-settings: 'calt';
   text-align: justify;
 }
 

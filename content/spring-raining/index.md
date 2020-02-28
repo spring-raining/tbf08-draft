@@ -1,5 +1,5 @@
 ---
-title: ViolaのこれからとVivliostyle Pub
+title: Viola のこれからと Vivliostyle Pub
 author:
   - spring-raining
 ---

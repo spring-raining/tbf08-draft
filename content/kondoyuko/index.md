@@ -1,5 +1,5 @@
 ---
-title: 「CSS組版全然わからない！」からはじめるVivliostyle同人誌制作超入門
+title: 「CSS 組版全然わからない！」からはじめる Vivliostyle 同人誌制作超入門
 author:
   - kondoyuko
 ---
