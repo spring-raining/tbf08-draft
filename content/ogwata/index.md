@@ -17,7 +17,7 @@ author:
 
 “Vivliostyle” は 2014 年 7 月頃、村上真雄によって構想されたのが始まりだ。その柱は、①ブラウザ上で動作する CSS 組版エンジンを、②オープンソースによって開発するの 2 点だった。同年 8 月には、村上が代表となって株式会社ビブリオスタイル (Vivliostyle Inc.) が設立され、それから半年ほどたった 2015 年春、川久保亮氏をメイン開発者として実際の開発作業が始まる。
 
-開発にあたってはフルスクラッチから作ることも試行されたが、結局 Peter Sorotokin 氏 (元 Adobe、その後 Google)[^2] による仕様提案、EPUB Adaptive Layout [^3] と、その JavaScript による参考実装 [^4] を土台にすることになった。この EPUB Adaptive Layout とは、 EPUB において多段組や図版が入る複雑なページレイアウトを、CSS 仕様の拡張と JavaScript の補完によって実現しようというものだった。
+開発にあたってはフルスクラッチから作ることも試行されたが、結局 Peter Sorotokin 氏 (<span style="font-family: body">元</span> Adobe、その後 Google)[^2] による仕様提案、EPUB Adaptive Layout [^3] と、その JavaScript による参考実装 [^4] を土台にすることになった。この EPUB Adaptive Layout とは、 EPUB において多段組や図版が入る複雑なページレイアウトを、CSS 仕様の拡張と JavaScript の補完によって実現しようというものだった。
 
 [^2]: https://github.com/sorotokin
 [^3]: http://idpf.org/epub/pgt/
@@ -109,7 +109,7 @@ author:
 
 Type3 フォントは印刷用データを生成する RIP (Raster Image Processor) では対応してないことが多い。つまり “Chrome” が作る PDF は、一般のプリンタでは問題なくても印刷用の PDF としては使えない。なお、この問題は “Safari” や “Firefox” では発生しない。しかし、“Chrome” はブラウザのうち最大シェアをもっており、知らん顔はできない。
 
-そういうわけで、この問題の解決は “Chrome” の開発元、Google 次第だ。ところが同社は対応に消極的で、当分解決は望めそうもない。ブラウザに印刷可能な PDF の生成を求めるユーザはごく少数だろうから、あまり無理も言えない。困っていたところに、印刷向け PDF/X-1a 準拠データへの変換ツール “press-ready”[^18] の作者、uetchy 氏 [^19] が開発に加わってくれて、数年来の懸案が一挙に解決してしまった。
+そういうわけで、この問題の解決は “Chrome” の開発<span style="font-family: body">元</span>、Google 次第だ。ところが同社は対応に消極的で、当分解決は望めそうもない。ブラウザに印刷可能な PDF の生成を求めるユーザはごく少数だろうから、あまり無理も言えない。困っていたところに、印刷向け PDF/X-1a 準拠データへの変換ツール “press-ready”[^18] の作者、uetchy 氏 [^19] が開発に加わってくれて、数年来の懸案が一挙に解決してしまった。
 
 [^18]: https://github.com/vibranthq/press-ready
 [^19]: https://github.com/uetchy
