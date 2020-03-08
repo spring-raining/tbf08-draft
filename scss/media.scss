@@ -9,9 +9,8 @@
 @media screen {
   body {
     margin: auto 4rem;
-    padding-bottom: 4rem;
     margin: 0 auto;
-    padding-top: 8rem;
+    padding: 8rem 8px 4rem;
     max-width: 60rem;
   }
   section {
@@ -27,6 +26,10 @@
     background-color: rgba(214, 255, 0, 0.4);
     margin: 0 0.1rem;
     line-height: 0;
+
+    a {
+      word-break: break-all;
+    }
   }
 
   a[data-ref='sec'],
